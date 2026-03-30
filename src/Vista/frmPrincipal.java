@@ -751,6 +751,9 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCategoriaActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmCategoria cat = new frmCategoria();
+        cat.setVisible(true);
     }//GEN-LAST:event_btnCategoriaActionPerformed
 
     private void btnMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMarcaActionPerformed
@@ -763,6 +766,9 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAlmacenActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmAlmacen almacen = new frmAlmacen();
+        almacen.setVisible(true);
     }//GEN-LAST:event_btnAlmacenActionPerformed
 
     private void jRegresarMMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jRegresarMMouseClicked
@@ -820,6 +826,10 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnRolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRolActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmRol rol = new frmRol();
+        rol.setVisible(true);
+        
     }//GEN-LAST:event_btnRolActionPerformed
 
     private void btnClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClienteActionPerformed
