@@ -7,7 +7,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -40,6 +40,9 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="frmPrincipal_jPanelPrincipal"/>
+      </AuxValues>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -312,7 +315,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
                                   <Component id="btnMovimiento" min="-2" pref="147" max="-2" attributes="0"/>
-                                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                                  <EmptySpace pref="52" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -354,7 +357,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
                                   <Component id="btnDetalle" min="-2" pref="147" max="-2" attributes="0"/>
-                                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                                  <EmptySpace pref="52" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -399,7 +402,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
                                   <Component id="btnInventario" min="-2" pref="147" max="-2" attributes="0"/>
-                                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                                  <EmptySpace pref="52" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>

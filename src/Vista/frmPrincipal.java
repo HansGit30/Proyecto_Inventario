@@ -239,7 +239,7 @@ public class frmPrincipal extends javax.swing.JFrame {
             .addGroup(jPanelContenMovimientoLayout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(btnMovimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(52, Short.MAX_VALUE))
         );
         jPanelContenMovimientoLayout.setVerticalGroup(
             jPanelContenMovimientoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -266,7 +266,7 @@ public class frmPrincipal extends javax.swing.JFrame {
             .addGroup(jPanelContentDetalleLayout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(btnDetalle, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(52, Short.MAX_VALUE))
         );
         jPanelContentDetalleLayout.setVerticalGroup(
             jPanelContentDetalleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -292,7 +292,7 @@ public class frmPrincipal extends javax.swing.JFrame {
             .addGroup(jPanelContentInventarioLayout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(btnInventario, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(52, Short.MAX_VALUE))
         );
         jPanelContentInventarioLayout.setVerticalGroup(
             jPanelContentInventarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -699,6 +699,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnConsultasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsultasActionPerformed
