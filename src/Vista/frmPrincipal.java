@@ -747,6 +747,9 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductoActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmProducto pro = new frmProducto();
+        pro.setVisible(true);
     }//GEN-LAST:event_btnProductoActionPerformed
 
     private void btnCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCategoriaActionPerformed
@@ -822,6 +825,9 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmUsuario usu = new frmUsuario();
+        usu.setVisible(true);
     }//GEN-LAST:event_btnUsuarioActionPerformed
 
     private void btnRolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRolActionPerformed
@@ -849,14 +855,23 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnMovimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMovimientoActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmMovimiento mov = new frmMovimiento();
+        mov.setVisible(true);
     }//GEN-LAST:event_btnMovimientoActionPerformed
 
     private void btnDetalleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDetalleActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmDetalle_Movimiento deta = new frmDetalle_Movimiento();
+        deta.setVisible(true);
     }//GEN-LAST:event_btnDetalleActionPerformed
 
     private void btnInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInventarioActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmInventario inv = new frmInventario();
+        inv.setVisible(true);
     }//GEN-LAST:event_btnInventarioActionPerformed
 
     /**
