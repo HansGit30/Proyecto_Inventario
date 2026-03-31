@@ -834,10 +834,17 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClienteActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmCliente cliente = new frmCliente();
+        cliente.setVisible(true);
     }//GEN-LAST:event_btnClienteActionPerformed
 
     private void btnProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProveedorActionPerformed
         // TODO add your handling code here:
+        this.setVisible(true);
+        frmProveedor prove = new frmProveedor();
+        prove.setVisible(true);
+        
     }//GEN-LAST:event_btnProveedorActionPerformed
 
     private void btnMovimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMovimientoActionPerformed
