@@ -56,7 +56,7 @@ public class frmProducto extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Montserrat", 1, 18)); // NOI18N
-        jLabel1.setText("Sistema Cliente");
+        jLabel1.setText("Mantenimiento Producto");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
